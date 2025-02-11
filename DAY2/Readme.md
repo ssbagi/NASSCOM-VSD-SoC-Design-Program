@@ -1,4 +1,4 @@
-# **Introduction **
+# Introduction
 In the Initial videos gives a Overview from the PCB Board to Chip. Then we zoom inisde chip we see the basic SoC Blocks (Multiple IP Blocks and HM blocks), GPIO's, Package, I/O Pads. The core and die section of the chip. 
 
 PCB Board : 
@@ -20,13 +20,18 @@ From :
 To :
 ![image](https://github.com/user-attachments/assets/6bb18f37-0f21-4cea-8bac-afdfd08741f8)
 
-# ** OpenLane Tool Introduction**
+# OpenLane Tool Introduction
 As part of the Lab session we are using the OpenLane tools for doing Chip design from RTL to GDSII flow. 
-
-Image : 
+ 
 ![image](https://github.com/user-attachments/assets/721afbca-51f4-4e04-97c4-636b4fa2e463)
 
-# **LAB Session :**
+# VLSI Flow 
+The Standard and basic VLSI flow for Chip design.
+
+![image](https://github.com/user-attachments/assets/c36058e1-37bc-4bbb-865d-7d3f98f3dc67)
+
+
+# LAB Session :
 
 As part of the lab introduction : 
 
@@ -56,25 +61,112 @@ The spice folder has the spice definitions for the standard cells. We can use th
 ![image](https://github.com/user-attachments/assets/2f512f3f-6f44-47d8-b629-98d85a94888a)
 
 In the maglef folder has definition of the technology lef details. The shape for nwell, pwell, metals, labels and GSD file.
+
 ![image](https://github.com/user-attachments/assets/84d67c13-227b-4313-9ce7-722ae8dd81b7)
 
 The lef directory has standard cell shape definition for each pin, total shape of the cell. During placement stage the cells and these shapes gets populated on the Standad row core section of the chip. 
+
 ![image](https://github.com/user-attachments/assets/97762480-af30-48fd-af3c-e0c8d581cba7)
 
 In the cdl folder these contains the definitions of the standard cell w, l, mult, sa and Perimeter. This is same as spice syntax.
+
 ![image](https://github.com/user-attachments/assets/3ca46585-1307-4796-a757-cb2f0aae0881)
 
 In the verilog folder we see the primitive definition of the standard cell. Whenever there is technolog mapping or netlist is getting generated we are going to use replace our logic modules with these standard cells definition. 
+
 ![image](https://github.com/user-attachments/assets/513fbd47-510d-4340-9717-5f2fae3bd869)
 ![image](https://github.com/user-attachments/assets/e4928df4-f979-4c52-863e-55fa6dbc14a4)
 
 ## libs.tech
+
 The libs.tech is the tools folder
 ![image](https://github.com/user-attachments/assets/c8924444-b4a1-42e7-9404-9af0d81858d2)
 
 ![Openlane_Tools](https://github.com/user-attachments/assets/31e8e2a7-e907-452f-969c-e37a21a54ed7)
 
-## Lab Hand On
+## Hands On
+
+### Step 1 : 
+
+```
+Command Used :
+- docker
+- package required openelane 0.9
+```
+
+![image](https://github.com/user-attachments/assets/455f068b-f0eb-4c30-9bcd-0acd290d60c5)
+
+
+
+config.tcl
+![image](https://github.com/user-attachments/assets/60f54bd9-72d0-47db-8897-f02103cbf3d8)
+
+The files sky130A_<>.tcl these have highest priority or override the settings to hte simulation. 
+![image](https://github.com/user-attachments/assets/3c5ff9e4-ae46-4877-8a9b-abfe1be59396)
+
+```
+prep -design picorv32a
+```
+When above command is ran you can see the config.tcl used for configuration, PDK's root directory, Standard cell library, LEF files and Metal layers (Only 6 layers are avialble). Then Merging lef (Cell level lef and technology level lef). 
+
+![image](https://github.com/user-attachments/assets/48f57d8a-92d7-47a5-a5d2-8e0b4b59579b)
+
+The runs directory creation taking palce : We can see the timestamp also. 
+![image](https://github.com/user-attachments/assets/ad7c2b95-ee30-4aca-9926-b1e68230de87)
+
+Now going inside tmp directory : 
+![image](https://github.com/user-attachments/assets/ca7c1984-6c26-4e60-b549-ce81db3ba1b8)
+
+In the Results Directory we have for each stage separate direcrtory creation and results avilable inside that. 
+![image](https://github.com/user-attachments/assets/cb8469af-f6d7-4f5d-8722-58255f5bfbbc)
+
+Similarly we have reports directory also same as results.
+![image](https://github.com/user-attachments/assets/dc04e639-ccaf-4a9c-b657-7106c039c313)
+
+The config.tcl file present in the runs directory give the list of commands used for the Simulation. 
+![image](https://github.com/user-attachments/assets/94e71dc3-efbc-45f4-948c-623d4060d562)
+
+## Synthesis 
+
+The Synthesis stage generally takes input of the design files (Verilog files), Constraints and Standard cell library (.lib) to generate the Equivalent Logic Circuit. 
+
+![image](https://github.com/user-attachments/assets/60efdfa2-217d-44af-a4fd-abf3c2521057)
+
+![image](https://github.com/user-attachments/assets/44ef1fad-70ad-4b77-9fdd-cf5e9974817d)
+
+Command used for yosys tool : 
+```
+run_synthesis
+```
+
+![image](https://github.com/user-attachments/assets/4ac7a7c9-adfe-4a32-86d8-2ac2942f3d3d)
+
+Results after Synthesis Step is as follows : 
+
+![image](https://github.com/user-attachments/assets/a20b93e3-89b5-46ef-9dda-94c028d4904e)
+
+The Chip area of the chip is 147712.918400.
+
+![image](https://github.com/user-attachments/assets/303b1512-21c4-43f4-a2e5-2d638bd0171a)
+
+
+# FLOP RATIO
+
+![image](https://github.com/user-attachments/assets/d3a9dff9-4733-4f4d-8ec3-e523f1aa8af9)
+
+The count of D-FF is 1613. 
+![image](https://github.com/user-attachments/assets/f7436662-5992-4a4b-88c4-1182a6e88827)
+
+The synthesis netlist generated file as shown below : 
+![image](https://github.com/user-attachments/assets/f703d861-0859-4e9d-a6e3-f70464be50d7)
+
+The synthesis reports directory : 
+![image](https://github.com/user-attachments/assets/eec868f0-a68a-4a4b-bbbf-8586c8b27599)
+
+
+
+
+
 
 
 
