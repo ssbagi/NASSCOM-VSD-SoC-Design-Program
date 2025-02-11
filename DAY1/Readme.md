@@ -132,6 +132,8 @@ The Synthesis stage generally takes input of the design files (Verilog files), C
 
 ![image](https://github.com/user-attachments/assets/60efdfa2-217d-44af-a4fd-abf3c2521057)
 
+![image](https://github.com/user-attachments/assets/434cce5c-ec21-4837-8cc2-0af7f8e78b38)
+
 ![image](https://github.com/user-attachments/assets/44ef1fad-70ad-4b77-9fdd-cf5e9974817d)
 
 Command used for yosys tool : 
