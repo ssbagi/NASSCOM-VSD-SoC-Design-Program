@@ -1,18 +1,41 @@
-**DAY1**
+# **Introduction **
+In the Initial videos gives a Overview from the PCB Board to Chip. Then we zoom inisde chip we see the basic SoC Blocks (Multiple IP Blocks and HM blocks), GPIO's, Package, I/O Pads. The core and die section of the chip. 
 
+PCB Board : 
+![image](https://github.com/user-attachments/assets/8a993c2a-8282-4995-8df2-0095c55130a4)
 
+Inside the Microcontroller chip:
+![image](https://github.com/user-attachments/assets/dc0e0cfa-4d6f-4003-a3fe-b243c8cc2c32)
 
+![image](https://github.com/user-attachments/assets/c28de1c5-ebc4-4c4d-81bf-307c8b3e9c01)
+
+![image](https://github.com/user-attachments/assets/1b4c7c29-71ca-4864-ab74-c59dfad12b75)
+
+An Introduction to Instruction Set Architecture (ISA). We have multiple ISA avaialble : x86, ARM, RISC-V and Power PC. We are using RISC-V ISA since its Open Source. The ISA plays an important role in designing the chip. The codes written in high level language is converted to assembly and then to binary which follows to specific ISA of that hardware.
+
+Basic Mapping from Applications to Hardware. Explaining about the stack. 
+From : 
+![image](https://github.com/user-attachments/assets/5c39b432-4b7f-4b75-a7d2-c2b0b32f4763)
+
+To :
+![image](https://github.com/user-attachments/assets/6bb18f37-0f21-4cea-8bac-afdfd08741f8)
+
+# ** OpenLane Tool Introduction**
 As part of the Lab session we are using the OpenLane tools for doing Chip design from RTL to GDSII flow. 
 
 Image : 
 ![image](https://github.com/user-attachments/assets/721afbca-51f4-4e04-97c4-636b4fa2e463)
 
+# **LAB Session :**
+
 As part of the lab introduction : 
 
 In the Process Design Kits (PDKs) the sky130A folder contains the libs.refs and lib.techs.
-The libs.ref contains the different process folders. In each of these process we have the library (timing corners) , lef files, spice files, mag has the cells shape, the technology lef, the verilog folder has custom defined cell definition using primitive verilog syntax. 
-![image](https://github.com/user-attachments/assets/b5198ae1-22b7-4485-b9fd-968a70851651)
 
+## libs.ref
+The libs.ref contains the different process folders. In each of these process we have the library (timing corners) , lef files, spice files, mag has the cells shape, the technology lef, the verilog folder has custom defined cell definition using primitive verilog syntax. 
+
+![image](https://github.com/user-attachments/assets/b5198ae1-22b7-4485-b9fd-968a70851651)
 ![image](https://github.com/user-attachments/assets/2746b90e-6843-44f7-be7b-fc1b2b71f547)
 
 The lib folder contains the corners with PVT specified. Process Voltgae and Temprature defined. 
@@ -45,11 +68,14 @@ In the verilog folder we see the primitive definition of the standard cell. When
 ![image](https://github.com/user-attachments/assets/513fbd47-510d-4340-9717-5f2fae3bd869)
 ![image](https://github.com/user-attachments/assets/e4928df4-f979-4c52-863e-55fa6dbc14a4)
 
-
+## libs.tech
 The libs.tech is the tools folder
 ![image](https://github.com/user-attachments/assets/c8924444-b4a1-42e7-9404-9af0d81858d2)
 
 ![Openlane_Tools](https://github.com/user-attachments/assets/31e8e2a7-e907-452f-969c-e37a21a54ed7)
+
+## Lab Hand On
+
 
 
 
