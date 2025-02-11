@@ -5,15 +5,15 @@ As part of the Workshop VSD SoC Design Course. I have created a separate Directo
 Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY1/Readme.md
 
 # Day 2
-Link : 
+Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY2/Readme.md
 
 # Day 3
-Link :
+Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY3/Readme.md
 
 # Day 4
-Link :
+Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY4/Readme.md
 
 # Day 5
-Link :
+Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY5/Readme.md
 
 
