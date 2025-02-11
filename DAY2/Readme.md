@@ -92,7 +92,85 @@ Opening the Magic Tool. The cirrent directory is in <TIMESTAMP>/results/floorpla
 ```
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/skylane130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
 ```
+
 ![image](https://github.com/user-attachments/assets/4cc7ae3c-7bf3-4355-8891-88df5caecc2e)
+
+![image](https://github.com/user-attachments/assets/3c1a6a6e-7079-4277-a866-04bd582b4dda)
+
+
+```
+s    - Used to select the object.
+v    - center the Die.
+what - dispalys the details of the object.
+```
+
+In below section shows the object of pins are routed in metal2.
+![image](https://github.com/user-attachments/assets/c4f2e828-bc39-4f8d-9295-d60f50eb0b38)
+
+All the logic blocks standard cells are placed in left side corner.
+![image](https://github.com/user-attachments/assets/04abd242-3c33-4ebe-aa76-e6cf9dd0f827)
+
+
+## Placement 
+The process of arraging circuit components on a layout surface. The input are Set of fixed modules, netlist. The output is best position for each module based on the cost functions.
+
+Optimize of the placement
+
+```
+- The cost function include wire length, wire routability, hotspots, performance, I/O pads.
+- Arrange all the Standard cells within in the chip.
+- Minimize the total estimated interconnect length.
+- Meet the timing requirements for critical nets.
+- Minimize the interconnect congestion.
+```
+
+![image](https://github.com/user-attachments/assets/9f7cf4e3-095a-4268-a8ce-929ff8e31d7a)
+
+![image](https://github.com/user-attachments/assets/c988808f-6cf8-4d1e-bf36-ba2b18f49fb2)
+
+![image](https://github.com/user-attachments/assets/34de1ff2-c0e0-474f-ab99-f91db720f03a)
+
+```
+run_placement
+```
+
+![image](https://github.com/user-attachments/assets/643f2e98-d358-4551-9752-3f5f7b6c5705)
+
+After the command ran : 
+
+![image](https://github.com/user-attachments/assets/cc1e3e66-34d0-4a41-8769-f0776d55e93e)
+
+![image](https://github.com/user-attachments/assets/67ec6809-6107-4a9b-9474-2299e70c2327)
+
+```
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/skylane130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
+```
+
+Opening the Chip after run_placement stage
+
+![image](https://github.com/user-attachments/assets/7b08b12b-c925-4c16-9d3a-0c1e3b3b0cd8)
+
+Placement of the Standard cells in Standard rows
+
+![image](https://github.com/user-attachments/assets/899f8bce-75cd-4a48-879b-68402bfbf91b)
+
+## Cell Design Flow
+
+![image](https://github.com/user-attachments/assets/4a64127b-f326-4c8e-8ae2-5beb4832c06b)
+
+The CDL(Circuit Descrption language)  
+
+![image](https://github.com/user-attachments/assets/c42a4efc-ebfe-481e-86ce-62bf16f9bd1a)
+
+### Characterization Flow
+
+![image](https://github.com/user-attachments/assets/7a93b3df-9c62-4761-82ef-52794bcf01bd)
+
+![image](https://github.com/user-attachments/assets/dccb93bd-3a94-41c7-8b3b-6684a3fa68f8)
+
+
+
+
 
 
 
