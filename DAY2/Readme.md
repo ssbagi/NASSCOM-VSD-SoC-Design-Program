@@ -73,6 +73,29 @@ Link : https://www.physicaldesign4u.com/2019/12/physical-only-cells.html
 
 Defining the Blockage for not placing the cells in those defined region. 
 
+# LAB WORK
+The variables defined for Floorplanning are as shown below : 
+
+![image](https://github.com/user-attachments/assets/6bfc66d3-8ca5-4a43-800b-af128258fee0)
+
+## Floorplan Tcl Script Configuration
+The floorplan tcl script used for configuring the simulation. 
+![image](https://github.com/user-attachments/assets/d1f55857-dbf4-4d3d-b843-fc4357228485)
+
+```
+run_floorplan
+```
+
+![image](https://github.com/user-attachments/assets/ffa17e98-b11c-496f-ab06-cefd0ebf979b)
+
+Opening the Magic Tool. The cirrent directory is in <TIMESTAMP>/results/floorplan
+```
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/skylane130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
+```
+![image](https://github.com/user-attachments/assets/4cc7ae3c-7bf3-4355-8891-88df5caecc2e)
+
+
+
 
 
 
