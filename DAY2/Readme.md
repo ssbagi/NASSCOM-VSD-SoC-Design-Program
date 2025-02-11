@@ -11,7 +11,7 @@ graph TD;
     A[ASIC]-->B[Full Custom;]
     A[ASIC]-->C[Semi Custom];
     A[ASIC]-->D[Programmable];
-    C[Semi Custom]-->E[Cell Based];
+    C[Semi Custom]-->F[Cell Based];
     C[Semi Custom]-->E[Standard Cell Based];
 ```
 
