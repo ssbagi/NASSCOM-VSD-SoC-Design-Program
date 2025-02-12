@@ -129,6 +129,11 @@ Opening the Chip after run_placement stage
 
 ![image](https://github.com/user-attachments/assets/7b08b12b-c925-4c16-9d3a-0c1e3b3b0cd8)
 
+After every run the screenshot of the result is takenand stored. The View of chip afer this step done is as follws : 
+
+/home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/11-02_14-38/results/placement/picorv32a.placement.def.png
+
+
 Placement of the Standard cells in Standard rows
 
 ![image](https://github.com/user-attachments/assets/899f8bce-75cd-4a48-879b-68402bfbf91b)
