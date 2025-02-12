@@ -4,7 +4,7 @@ The Physical design flow is as follows :
 ![image](https://github.com/user-attachments/assets/2b6d4618-7418-4636-8efe-57efefc5c1bb)
 
 
-Most of the Chip design falls into following categories as shown in below Flow diagram. Majority of the Semiconductor comapines target for ASIC's based and in that Standard cell based Methodology. The target based methodology is Standard Cell Based becuase to reduce the design time, reduce NRE (Non Recurring Engineering) cost, reduce the TAT (Turn around time) and faster Time to Market. Faster and Efficient delivery of the chips to customer. The Lead time for the chips will be around 18 months to 24 months. Hence, Majority of the Semiconductor companies go for Standard cell based approach. 
+Most of the Chip design falls into following categories as shown in below Flow diagram. Majority of the Semiconductor comapines target for ASIC's based and in that Standard cell based Methodology. Generally PDK's are delivered. In our project we have skylane130A as PDK's. The target based methodology is Standard Cell Based becuase to reduce the design time, reduce NRE (Non Recurring Engineering) cost, reduce the TAT (Turn around time) and faster Time to Market. Faster and Efficient delivery of the chips to customer. The Lead time for the chips will be around 18 months to 24 months. Hence, Majority of the Semiconductor companies go for Standard cell based approach. 
 
 ```mermaid
 graph TD;
