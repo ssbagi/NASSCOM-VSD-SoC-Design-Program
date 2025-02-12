@@ -26,7 +26,7 @@ The libs.tech is the tools folder
 ```
 Command Used :
 - docker
-- package required openelane 0.9
+- package require openelane 0.9
 ```
 
 ![image](https://github.com/user-attachments/assets/455f068b-f0eb-4c30-9bcd-0acd290d60c5)
