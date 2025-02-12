@@ -139,22 +139,15 @@ Placement of the Standard cells in Standard rows
 ![image](https://github.com/user-attachments/assets/899f8bce-75cd-4a48-879b-68402bfbf91b)
 
 
+# DAY3 LAB WORK
+
+## Magic Layout and NGSPICE Characterziation
 
 
 
-# Day 1
-Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY1/Readme.md
 
-# Day 2
-Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY2/Readme.md
 
-# Day 3
-Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY3/Readme.md
 
-# Day 4
-Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY4/Readme.md
 
-# Day 5
-Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY5/Readme.md
 
 
