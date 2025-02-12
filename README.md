@@ -57,6 +57,19 @@ The Chip area of the chip is 147712.918400.
 
 ![image](https://github.com/user-attachments/assets/303b1512-21c4-43f4-a2e5-2d638bd0171a)
 
+# FLOP RATIO
+
+![image](https://github.com/user-attachments/assets/d3a9dff9-4733-4f4d-8ec3-e523f1aa8af9)
+
+The count of D-FF is 1613. 
+![image](https://github.com/user-attachments/assets/f7436662-5992-4a4b-88c4-1182a6e88827)
+
+The synthesis netlist generated file as shown below : 
+![image](https://github.com/user-attachments/assets/f703d861-0859-4e9d-a6e3-f70464be50d7)
+
+The synthesis reports directory : 
+![image](https://github.com/user-attachments/assets/eec868f0-a68a-4a4b-bbbf-8586c8b27599)
+
 
 # Day 1
 Link : https://github.com/ssbagi/NASSCOM-VSD-SoC-Design-Program/blob/main/DAY1/Readme.md
