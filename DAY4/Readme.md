@@ -60,7 +60,23 @@ Now we see our custom inverter cell is included in total list of cells. The coun
 Cell Count Summary : 
 ![image](https://github.com/user-attachments/assets/c691a2f8-eca6-44fe-8664-bea62c156684)
 
+After Modying the parameters : 
 
-# STA : Static Timing Analysis
+![image](https://github.com/user-attachments/assets/d424e8ba-b29c-4083-a95a-2f3b6de575bf)
+
+![image](https://github.com/user-attachments/assets/49949561-02de-4679-9419-e04b2e77b2e5)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
