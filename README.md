@@ -177,6 +177,7 @@ Extracting the details form the layout, parasitics from the cell.
 ```
 extract all
 ext2spice cthresh 0 rthresh 0
+ext2spice
 ```
 ![image](https://github.com/user-attachments/assets/5f871793-d38d-4858-90fa-fa7b48c95ffc)
 
