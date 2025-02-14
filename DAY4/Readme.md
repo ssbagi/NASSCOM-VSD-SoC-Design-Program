@@ -51,20 +51,7 @@ Now we have lef and timing definition library files included in this.
 Updated config.tcl file : 
 ![image](https://github.com/user-attachments/assets/5e3df8cb-8c70-426b-8aed-fbe35839d161)
 
-Now starting once again the synthesis step. Now below in merged lef section you can see we have included the new inverter cell.
-![image](https://github.com/user-attachments/assets/daad13c0-3802-4b9d-b4e0-6684be2b2de5)
 
-Now we see our custom inverter cell is included in total list of cells. The count is 1554. 
-![image](https://github.com/user-attachments/assets/da8a425b-ff46-485f-b02a-23af7aaebabe)
-
-Cell Count Summary : 
-![image](https://github.com/user-attachments/assets/c691a2f8-eca6-44fe-8664-bea62c156684)
-
-After Modying the parameters : 
-
-![image](https://github.com/user-attachments/assets/d424e8ba-b29c-4083-a95a-2f3b6de575bf)
-
-![image](https://github.com/user-attachments/assets/49949561-02de-4679-9419-e04b2e77b2e5)
 
 
 
