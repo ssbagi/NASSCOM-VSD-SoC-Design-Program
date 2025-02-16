@@ -299,6 +299,15 @@ Inclusion of Custom cell :
 
 ![image](https://github.com/user-attachments/assets/d77de7f0-1719-473c-bffc-53388e623942)
 
+### Example Sending Fixes
+
+![image](https://github.com/user-attachments/assets/db2a417a-5913-4383-9a36-a3be5838b89d)
+
+![image](https://github.com/user-attachments/assets/32f0a8b1-6d7a-4214-9156-d45273a2a842)
+
+![Uploading image.png…]()
+
+
 ### NOTE 
 
 Give feedback to Logic team to reduce as much as possible because once if you do floorplan, placement. Reduce the setup as much as possible. Next after CTS we will have setup and hold violation also. Make a note of all the fixes sent to folks and send in mail. Add commands also in the mail it becomes easy for them to take in fixes. 
