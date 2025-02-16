@@ -207,9 +207,6 @@ The basic tpd Propogation delay. 50% of Output to 50% of input.
 The basic tf Fall time calculation. 80% to 20% value changes.
 ![image](https://github.com/user-attachments/assets/45a353e0-befe-4438-b3a4-1e2653a5cfea)
 
-## DRC Error
-
-
 
 # DAY 4
 
