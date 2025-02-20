@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/85858bab-1623-45d8-bd49-ddcf886bee8f)# NASSCOM-VSD-SoC-Design-Program
+# NASSCOM-VSD-SoC-Design-Program
 As part of the Workshop VSD SoC Design Course. 
 
 # DAY 1 : LAB Work
