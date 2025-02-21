@@ -305,7 +305,7 @@ Inclusion of Custom cell :
 
 ![image](https://github.com/user-attachments/assets/32f0a8b1-6d7a-4214-9156-d45273a2a842)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/0b4b4c35-5748-4c69-90ec-2ae8c0db22e2)
 
 
 ### NOTE 
@@ -383,32 +383,9 @@ Loading from CTS stage we read LEF, DEF, DB and Verilog file.
 ![image](https://github.com/user-attachments/assets/868820f5-eec5-431f-9c9b-17e5ee76a418)
 
 
+At the end of routing we have following def file creation : 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/2d78abc1-c058-4413-9a7d-1f5cdb457e83)
 
 
 
